@@ -1,0 +1,7 @@
+# Simulation outputs (rebuilt by ./run.sh)
+sim/
+*.vcd
+*.vvp
+__pycache__/
+.DS_Store
+UART_Mini_Project_Report.pdf
