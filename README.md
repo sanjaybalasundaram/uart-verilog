@@ -17,6 +17,10 @@ tx_data ──► uart_tx ──► serial line ──► uart_rx ──► rx_d
 | Receiver | 2-flip-flop synchroniser, start bit checked at its middle (rejects glitches), each bit sampled at its centre, byte accepted only if the stop bit is 1 |
 | Size (Yosys, generic gates) | 378 cells, 68 flip-flops (~69 LUTs on Xilinx Artix-7) |
 
+## Circuit (Yosys)
+
+![Top-level schematic](docs/schematic_uart_top.svg)
+
 ## Tests (`tb/uart_tb.v`)
 
 | Test | Result |
