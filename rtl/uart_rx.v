@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 // UART Receiver: 8N1, samples each bit in the middle
 module uart_rx #(
     parameter CLKS_PER_BIT = 434

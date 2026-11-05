@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 // UART Transmitter: 8 data bits, no parity, 1 stop bit (8N1)
 module uart_tx #(
     parameter CLKS_PER_BIT = 434   // 50 MHz clock / 115200 baud

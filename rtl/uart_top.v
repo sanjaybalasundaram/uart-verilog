@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 // Top module: transmitter output looped back into receiver
 module uart_top #(
     parameter CLKS_PER_BIT = 434
